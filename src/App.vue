@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
     </nav> -->
     <HeaderComponent />
+    <SidebarComponent />
     <router-view />
     <FooterComponent />
   </div>
@@ -12,11 +13,13 @@
 <script>
 import HeaderComponent from './components/Header.vue';
 import FooterComponent from './components/Footer.vue';
+import SidebarComponent from './components/Sidebar.vue';
 
 export default {
 
   components: {
     HeaderComponent,
+    SidebarComponent,
     FooterComponent,
   },
 

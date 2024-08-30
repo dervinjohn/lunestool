@@ -11,11 +11,12 @@
       </div>
     </div>
     <div class="sidebar-divider w-full"></div>
-    <SidebarTile icon="fa-solid fa-home" text="Home" />
-    <SidebarTile icon="fa-solid fa-message" text="Chats" />
-    <SidebarTile icon="fa-solid fa-briefcase" text="Projects" />
-    <SidebarTile icon="fa-solid fa-users" text="Employee" />
-    <SidebarTile icon="fa-solid fa-list-check" text="Task" />
+      <SidebarTile icon="fa-solid fa-home" text="Home" />
+      <SidebarTile icon="fa-solid fa-message" text="Chats" />
+      <SidebarTile icon="fa-solid fa-briefcase" text="Projects" />
+      <SidebarTile icon="fa-solid fa-users" text="Employee" />
+      <router-link class="pt-2 pb-2" :exact="true" to="/Task"><SidebarTile icon="fa-solid fa-list-check" text="Task" />
+    </router-link>
   </div>
 </template>
 <script>
