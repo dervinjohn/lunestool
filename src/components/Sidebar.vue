@@ -14,6 +14,8 @@
     <SidebarTile icon="fa-solid fa-home" text="Home" />
     <SidebarTile icon="fa-solid fa-message" text="Chats" />
     <SidebarTile icon="fa-solid fa-briefcase" text="Projects" />
+    <SidebarTile icon="fa-solid fa-users" text="Employee" />
+    <SidebarTile icon="fa-solid fa-list-check" text="Task" />
   </div>
 </template>
 <script>
